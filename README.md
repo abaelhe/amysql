@@ -10,6 +10,28 @@
 <li> <h3> 1. SQL CRUD;
 <li> <h3> 2. MySQL Store procedure.
 </ul>
+<h1>Interface:<h1>
+<ul>
+<li> <h3> 0. new connection:  
+<code>
+>>> import amysql
+>>> c=amysql.Con()
+>>> c.connect('localhost', #### server host
+               3306,       #### server port 
+               'xweb',     #### username
+               'xweb123',  #### password
+               'xweb')     #### database
+  );
+</code>
+<li> <h3> 1. SQL CRUD:
+<code>
+>>> c.query("select * from sys_usr")
+</code>
+<li> <h3> 2. MySQL Store procedure.
+<code>
+>>> c.query("call sys_usr_list()")
+</code>
+</ul>
 <h1>Todo:<h1>
 <ul>
 <li> <h2> 0. As needed; <h2>

@@ -57,7 +57,6 @@ typedef unsigned char                  bool;
 #define MY_HANDSHAKE_SIZE                  74
 #define MY_HEADER_SIZE                      4
 #define MY_SQLSTATE_LENGTH                  5
-#define MY_SCRAMBLE_LENGTH                 20
 #define MY_PROTOCOL_VERSION               0xa
 #define MY_SHA1_HASH_SIZE                  20
 #define MY_NULL_LENGTH ((unsigned long) ~0)
