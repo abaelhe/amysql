@@ -31,6 +31,15 @@
 <code>
 >>> c.query("call sys_usr_list()")
 </code>
+<li> <h3> 3. get query result:
+<code>
+>>> c.rows
+>>> c.fields
+</code>
+<li> <h3> 4. adapte to Python async socket( c.sock is instance of Python socket class. ):
+<code>
+>>> c.sock
+</code>
 </ul>
 <h1>Todo:<h1>
 <ul>
