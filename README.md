@@ -19,9 +19,8 @@
 <br><code>               'xweb123',  #### password
 <br><code>               'xweb')     #### database
 <br><code>  );
-</code>
 <li> <h3> 1. SQL CRUD:
-<code>
+<br><code>
 >>> c.query("select * from sys_usr")
 </code>
 <li> <h3> 2. MySQL Store procedure.
