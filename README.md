@@ -1,5 +1,6 @@
 <h1> Simple and High Performance MySQL Driver(Python). </h1>
 <ul>
+<li> <h3>0. This is community version, support and test on Linux x64;
 <li> <h3>1. This driver works fine and with very high performance for most company and most scene;
 <li> <h3>2. Note: not fully compatiable with MySQL offcial protocol;
 <li> <h3>3. License and/or business collaboration. contact the maintainer.
