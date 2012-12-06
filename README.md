@@ -13,33 +13,27 @@
 <h1>Interface:<h1>
 <ul>
 <li> <h3> 0. new connection:  
-<code>
->>> import amysql
->>> c=amysql.Con()
->>> c.connect('localhost', #### server host
-               3306,       #### server port 
-               'xweb',     #### username
-               'xweb123',  #### password
-               'xweb')     #### database
-  );
+<br><code> >>> import amysql;c=amysql.Con();c.connect('localhost', #### server host
+<br><code>         3306,       #### server port 
+<br><code>               'xweb',     #### username
+<br><code>               'xweb123',  #### password
+<br><code>               'xweb')     #### database
+<br><code>  );
 </code>
 <li> <h3> 1. SQL CRUD:
 <code>
 >>> c.query("select * from sys_usr")
 </code>
 <li> <h3> 2. MySQL Store procedure.
-<code>
+<br><code>
 >>> c.query("call sys_usr_list()")
-</code>
 <li> <h3> 3. get query result:
-<code>
+<br><code>
 >>> c.rows
 >>> c.fields
-</code>
 <li> <h3> 4. adapte to Python async socket( c.sock is instance of Python socket class. ):
-<code>
+<br><code>
 >>> c.sock
-</code>
 </ul>
 <h1>Todo:<h1>
 <ul>
