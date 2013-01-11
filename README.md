@@ -3,9 +3,9 @@
 <li> <h3>0. This is community version, supported and tested on Linux x64, Python 2.7;
 <li> <h3>1. This driver works fine and with very high performance for most company and most scene;
 <li> <h3>2. Note: not fully compatiable with MySQL offcial protocol;
-<li> <h3>3. License and/or business collaboration. contact the maintainer.
+<li> <h3>3.  contact the maintainer for License and/or business collaboration.
 </ul>
-<h1>Current Support Functions:</h1>
+<h1>Current Supported Functions:</h1>
 <ul>
 <li> <h3>0. MySQL safe handshake(SHA1, MY_SCRAMBLE_LENGTH:20 byte);
 <li> <h3>1. SQL CRUD;
@@ -24,7 +24,7 @@
 <br><code>
 >>> c.query("select * from sys_usr")
 </code>
-<li> <h3>2. MySQL Store procedure:</h3>
+<li> <h3>2. MySQL Store Procedure:</h3>
 <code>
 >>> c.query("call sys_usr_list()")
 <li> <h3>3. get query result:</h3>
