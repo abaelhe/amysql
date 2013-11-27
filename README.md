@@ -14,11 +14,13 @@
 <h1>Interface:</h1>
 <ul>
 <li> <h3>0. new connection:</h3>
-<code> >>> import amysql;c=amysql.Con();c.connect('localhost', #### server host
-<br><code>         3306,       #### server port 
-<br><code>               'xweb',     #### username
-<br><code>               'xweb123',  #### password
-<br><code>               'xweb')     #### database
+<code> 
+>>> import amysql;c=amysql.Con();c.connect(
+<br><code> 'localhost', # server host
+<br><code>        3306, # server port 
+<br><code>      'xweb', # username
+<br><code>   'xweb123', # password
+<br><code>    'xweb')   # database
 <br><code>  );
 <li> <h3>1. SQL CRUD:</h3>
 <br><code>
