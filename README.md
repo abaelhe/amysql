@@ -15,7 +15,9 @@
 <ul>
 <li> <h3>0. new connection:</h3>
 <code> 
->>> import amysql;c=amysql.Con();c.connect(
+>>> import amysql;
+>>> c=amysql.Con();
+>>> c.connect(
 <br><code> 'localhost', # server host
 <br><code>        3306, # server port 
 <br><code>      'xweb', # username
@@ -26,10 +28,10 @@
 <br><code>
 >>> c.query("select * from sys_usr")
 </code>
-<li> <h3>2. MySQL Store Procedure:</h3>
+<li> <h3>2. Call MySQL Store Procedure:</h3>
 <code>
 >>> c.query("call sys_usr_list()")
-<li> <h3>3. get query result:</h3>
+<li> <h3>3. Query Result:</h3>
 <code>
 >>> c.rows
 >>> c.fields
