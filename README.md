@@ -44,3 +44,6 @@
 <li> <h2> 0. As needed; <h2>
 </ul>
 
+
+
+[![Join the chat at https://gitter.im/abael/amysql](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/abael/amysql?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
