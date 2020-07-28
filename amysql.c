@@ -2354,7 +2354,7 @@ PyMODINIT_FUNC initamysql(void) {
 	Py_INCREF(&ConType);
 	PyModule_AddObject(m, "Con", (PyObject *) &ConType);
 
-	amysql_Error = PyErr_NewException("amysql.Error", PyExc_StandardError,
+	amysql_Error = PyErr_NewException("amysql.Error", PyExc_Error,
 			NULL);
 	amysql_SQLError = PyErr_NewException("amysql.SQLError", amysql_Error, NULL);
 
